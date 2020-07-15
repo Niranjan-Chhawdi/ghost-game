@@ -18,7 +18,7 @@ function preload() {
 }
 
 function setup() {
-  canvas = createCanvas(displayWidth - 20, displayHeight-30);
+  canvas = createCanvas(400,600);
   bird = new Bird();
   pipes.push(new Pipe());
 
